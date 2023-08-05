@@ -1,0 +1,30 @@
+@font-face {
+    font-family: NotoSansFuenteCustom;
+    src: url(/Fuentes/Noto_Sans/NotoSans-Regular.ttf)
+}
+
+h1{
+    font-family: 'Mansalva', cursive;
+    font-style: inherit;
+
+    /*Colores*/
+    /* Colores del sistema */
+    color: olive;
+    /* Colores hexadecimales */
+    color: #ffafcc;
+    /* Colores RGB */
+    color: rgb(225,225,110);
+    /* Colores RGBA */
+    color: rgba(225,225,110,0.5);
+}
+
+h3{
+    font-family: NotoSansFuenteCustom;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}

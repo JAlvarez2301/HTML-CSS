@@ -1,0 +1,97 @@
+/*
+#######SELECTORES######
+*/
+
+/* Selector universal, selecciona todo */
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:aquamarine ;
+}
+
+/*Selector de etiqueta*/
+h1{
+    background: bisque;
+    color: azure;
+    padding: 30px;
+}
+
+a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+form input {
+    margin: 5px;
+    padding: 10px;
+}
+footer a {
+    background-color: bisque;
+    padding: 10px;
+    
+}
+/*Selector de id, se utiliza solo para uno*/
+
+#descripcion{
+    border: 2px dashed black;
+    padding: 15px;
+}
+#parrafo1{
+    font-style: italic;
+    font-size: 14px;
+    background-color: chocolate;
+    color: aliceblue;
+}
+
+/*Selector de clase*/
+
+.parrafo{
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Selector de atributo*/
+#usuario form {
+    border: 5px solid blue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;  
+}
+
+#usuario form *{
+    display: block;
+}
+input[type="text"]{
+    margin-bottom: 15px;
+    background-color: bisque;
+    padding: 15px;
+    width: 350px;
+}
+
+input[type="submit"]{
+    background-color: chartreuse;
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    border: 1px dashed black;
+    cursor: pointer;
+}
+
+/* SELECTORES HIJO */
+
+#menu > li > a{
+    color: red;
+}
+
+/* PRIORIDAD EN CSS, LA ÚLTIMA REGLA TIENE PRIORIDAD SOBRE LA PRIMERA. 
+LA ÚLTIMA MANDA, PEEEEEEEEEEEEEEEEEERO
+PREMIA LA ESPECIFICIDAD
+!important marca la importancia
+*/
+#saludo h1{
+    background-color: brown;
+}
+
+h1{
+    background-color: purple !important;
+}

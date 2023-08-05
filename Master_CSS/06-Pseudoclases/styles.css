@@ -1,0 +1,52 @@
+*{
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+ul li{
+    font-size: 20px;
+}
+ul li:first-child{
+    color: purple;
+}
+ul li:nth-child(2){
+    color: rgb(26, 219, 91);
+}
+
+ul li:nth-child(3){
+    color: yellow;
+}
+
+ul li:last-child{
+    color: gray;
+}
+
+#mienlace{
+    font-size: 30px;
+    color: lightpink;
+}
+
+#mienlace:link{
+    color: red;
+}
+
+#mienlace:visited{
+    color: green;
+}
+
+#mienlace:hover{
+    color: aqua;
+}
+
+#mienlace:active{
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type="text"]{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+input[type="text"]:focus{
+    border: 8px dashed red;
+}
